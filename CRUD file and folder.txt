@@ -1,0 +1,42 @@
+Create :
+
+mkdir foldername - create folder
+touch filename - create file
+> filename - create file
+
+
+
+Move & Rename :
+
+mv <current position & name> <new position & name> - move & rename file/folder
+
+
+
+Copy :
+
+cp filename copyfilename - file copy one to another
+cp -r foldername copyfoldername - folder copy one to another
+
+
+
+Write :
+
+echo 'word' > filename - writes in file (Overwrites)
+echo 'word' >> filename - adds data in file (Not overwrite)
+cat > filename - creates file and starts writing in terminal
+
+
+
+Remove :
+
+rm filename - file delete
+rmdir foldername - empty folder delete
+rm -r foldername - deletes folder with files
+
+
+
+Search :
+
+grep text filename - seaches 'text' word in file, returns word if exist
+grep text file1 file2 ... - searches 'text' word from multiple files, returns word with filename if exist
+grep text * - searches 'text' word from all files
