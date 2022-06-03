@@ -1,0 +1,44 @@
+Nano :
+
+nano filename - opens nano gui in terminal and you can write, save file
+vi filename - opens vi gui in terminal 
+
+
+
+Linux Permissions : 
+
+chmod -r filename - removes read permission from file
+chmod +w filename - adds write permission to file
+(r-read, w-write, x-execution)
+
+
+
+ssh command :
+
+ssh username@ip - get access to remote machine
+scp filename username@ip:location - copy this device file to remote ip location
+
+
+
+Process :
+
+ps - list process
+pgrep - search process
+pkill - kill process
+
+
+
+Service :
+
+sudo systemctl start service - start service
+sudo systemctl stop service - stop service
+sudo systemctl restart service - restart service
+sudo systemctl status service - shows status of service
+
+
+
+Zip : 
+
+zip zipname file1 file2... - zips all files and gives name 'zipname.zip'
+zip -r zipfoldername folder - zips folder and its data 
+unzip zipfilename - unzips file
