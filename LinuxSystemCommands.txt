@@ -23,8 +23,8 @@ scp filename username@ip:location - copy this device file to remote ip location
 Process :
 
 ps - list process
-pgrep - search process
-pkill - kill process
+pgrep servicename - search process
+pkill servicename/serviceId - kill process
 
 
 
