@@ -17,6 +17,12 @@ ssh command :
 
 ssh username@ip - get access to remote machine
 scp filename username@ip:location - copy this device file to remote ip location
+sudo service ssh status - to check status of shell server
+sudo service ssh start - to start server
+sudo service ssh stop - to stop server
+who - to see who is connected
+ps aux | grep sshd - to find process id of ssh user connected
+kill -9 pid - to remove user who is connected to our pc using ssh
 
 
 
